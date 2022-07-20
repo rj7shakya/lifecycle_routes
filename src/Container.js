@@ -15,6 +15,7 @@ const Container = () => {
         <Routes>
           <Route path="/about/:name" element={<About />}></Route>
           <Route path="/" element={<Home />}></Route>
+          <Route path="*" element={<div>Not Found</div>}></Route>
         </Routes>
       </div>
     </Router>
